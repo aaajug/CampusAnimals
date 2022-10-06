@@ -42,8 +42,8 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.7.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     archive-zip (0.12.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
@@ -85,6 +85,7 @@ GEM
     duktape (2.6.0.0)
     erubi (1.10.0)
     execjs (2.7.0)
+    ffi (1.14.2)
     ffi (1.14.2-x64-mingw32)
     ffi (1.14.2-x86-mingw32)
     globalid (0.4.2)
@@ -119,11 +120,14 @@ GEM
       racc (~> 1.4)
     nokogiri (1.11.1-x86-mingw32)
       racc (~> 1.4)
+    nokogiri (1.11.1-x86_64-linux)
+      racc (~> 1.4)
+    pg (1.2.3)
     pg (1.2.3-x64-mingw32)
     pg (1.2.3-x86-mingw32)
     postgresql (1.0.0)
       pg
-    public_suffix (4.0.6)
+    public_suffix (5.0.0)
     puma (3.12.6)
     racc (1.5.2)
     rack (2.2.3)
@@ -212,6 +216,7 @@ GEM
 PLATFORMS
   x64-mingw32
   x86-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   autosize
