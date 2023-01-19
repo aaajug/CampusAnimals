@@ -80,16 +80,17 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.1.8)
+    concurrent-ruby (1.1.10)
     crass (1.0.6)
     duktape (2.6.0.0)
     erubi (1.10.0)
     execjs (2.7.0)
+    ffi (1.14.2)
     ffi (1.14.2-x64-mingw32)
     ffi (1.14.2-x86-mingw32)
-    globalid (0.4.2)
-      activesupport (>= 4.2.0)
-    i18n (1.8.9)
+    globalid (1.0.1)
+      activesupport (>= 5.0)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     image_processing (1.12.1)
       mini_magick (>= 4.9.5, < 5)
@@ -112,13 +113,16 @@ GEM
     mimemagic (0.3.5)
     mini_magick (4.11.0)
     mini_mime (1.0.2)
-    minitest (5.14.4)
+    minitest (5.17.0)
     msgpack (1.4.2)
     nio4r (2.5.5)
     nokogiri (1.11.1-x64-mingw32)
       racc (~> 1.4)
     nokogiri (1.11.1-x86-mingw32)
       racc (~> 1.4)
+    nokogiri (1.11.1-x86_64-linux)
+      racc (~> 1.4)
+    pg (1.2.3)
     pg (1.2.3-x64-mingw32)
     pg (1.2.3-x86-mingw32)
     postgresql (1.0.0)
@@ -192,7 +196,7 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.9)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     tzinfo-data (1.2021.1)
       tzinfo (>= 1.0.0)
@@ -212,6 +216,7 @@ GEM
 PLATFORMS
   x64-mingw32
   x86-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   autosize
